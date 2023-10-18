@@ -1,0 +1,72 @@
+body 
+{ 
+    font-family: sans-serif;
+    background-color: lightskyblue;
+    background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+    background-size:  cover;                    
+    background-repeat:   no-repeat;
+    background-position: center;
+    height: 600px;
+
+
+}
+textarea{
+    text-align: center;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+button:hover 
+{
+    background: lavender;
+}
+h5 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: solid;
+
+}
+.Search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+   
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+/* Style for the input bar */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #007BFF; /* Add a border with a color of your choice */
+    border-radius: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+    outline: none; /* Remove the default input focus outline */
+    transition: border-color 0.2s; /* Add a smooth transition on border color */
+
+    /* Optional: Add some padding to the left for better visual appeal */
+    padding-left: 10px;
+
+    /* Optional: Add a placeholder style */
+    ::placeholder {
+        color: #999; /* Placeholder text color */
+    }
+
+    /* Optional: Style on input focus */
+    :focus {
+        border-color: #0056b3; /* Change border color on focus */
+    }
+}
